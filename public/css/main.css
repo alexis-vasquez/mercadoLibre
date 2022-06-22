@@ -16,7 +16,7 @@ p{
     font-size: 12px;
 }
 div.top-header{
-    padding: 5%;
+    /* padding: 5%; */
 }
 
 header{
@@ -28,7 +28,7 @@ header div.logo{
 }
 
 header div.logo{
-    padding: 10px;
+    /* padding: 10px; */
 }
 header nav{
     font-size: 12px;
@@ -49,7 +49,7 @@ header .form .input{
     border: 1px solid #000;
     outline: none;
     color: #666;
-    padding: 2px;
+    /* padding: 2px; */
 }
 header .form .submit{
     background-color: #FFF;
@@ -61,7 +61,7 @@ header .form .submit{
 .top-header p{
     width: 100%;
     text-align: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 div.burger-menu{
@@ -167,7 +167,7 @@ footer {
 
 @media (min-width: 480px){
     .top-header {
-        padding: 0;
+        /* padding: 10px; */
         display: flex;
         justify-content: center;
         flex-wrap: nowrap;
@@ -213,5 +213,11 @@ footer {
 
     .F-Copy {
         margin-top: 20px;
+    }
+}
+
+@media (min-width: 800px) {
+    .top-header {
+        padding: 0;
     }
 }
